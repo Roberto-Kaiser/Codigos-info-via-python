@@ -1,0 +1,6 @@
+print("CADASTRO ALUNO")
+input("NOME:")
+input("IDADE:")
+input("SÉRIE:")
+input("NÚMERO DE ID:")
+input("SENHA:")
