@@ -1,0 +1,7 @@
+print("CADASTRO PROFESSOR")
+input("NOME:")
+input("IDADE:")
+input("CONTATO:")
+input("MATÉRIA(S):")
+input("NÚMERO DE ID:")
+input("SENHA:")
