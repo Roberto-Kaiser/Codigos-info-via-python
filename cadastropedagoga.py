@@ -1,0 +1,7 @@
+print("CADASTRO PEDAGOGA")
+input("NOME:")
+input("IDADE:")
+input("CONTATO:")
+input("ATRIBUIÇÕES:")
+input("NÚMERO DE ID:")
+input("SENHA:")
