@@ -1,0 +1,6 @@
+print("CADASTRO DIRETOR")
+input("NOME:")
+input("IDADE:")
+input("CONTATO:")
+input("NÚMERO DE ID:")
+input("SENHA:")
