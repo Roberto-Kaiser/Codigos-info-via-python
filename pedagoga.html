@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Pedagoga</title>
+    <link rel="stylesheet" href="pedagoga.css">
+</head>
+<body>
+    <h1>Cadastro de Pedagoga</h1>
+    
+    <form method="POST">
+        <label>Nome:
+            <input type="text" name="nome" required>
+        </label>
+        
+        <label>Idade:
+            <input type="number" name="idade" required>
+        </label>
+        
+        <label>Contato:
+            <input type="text" name="contato" required>
+        </label>
+        
+        <label>Atribuições:
+            <textarea name="atribuicoes" required></textarea>
+        </label>
+        
+        <label>Senha (máx 30 caracteres):
+            <input type="password" name="senha" maxlength="30" required>
+        </label>
+        
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
