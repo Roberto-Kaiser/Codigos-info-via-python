@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Professor</title>
+    <link rel="stylesheet" href="professor.css">
+</head>
+<body>
+    <h1>Cadastro de Professor</h1>
+    
+    <form method="POST">
+        <label>Nome:
+            <input type="text" name="nome" required>
+        </label>
+        
+        <label>Idade:
+            <input type="number" name="idade" required>
+        </label>
+        
+        <label>Contato:
+            <input type="text" name="contato" required>
+        </label>
+        
+        <label>Matéria(s):
+            <input type="text" name="materias" required>
+        </label>
+        
+        <label>Senha (máx 30 caracteres):
+            <input type="password" name="senha" maxlength="30" required>
+        </label>
+        
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
