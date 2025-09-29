@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Agendamento de Sessão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Agendamento de Sessão</h1>
+    
+    <form method="POST">
+        <label>Motivos da sessão:
+            <textarea name="motivos" required></textarea>
+        </label>
+        
+        <label>Professor(es) envolvidos:
+            <input type="text" name="professores" required>
+        </label>
+        
+        <label>Pedagoga(s) envolvidas:
+            <input type="text" name="pedagogas" required>
+        </label>
+        
+        <label>Aluno(s)/Turma(s) envolvidos(as):
+            <input type="text" name="alunos" required>
+        </label>
+        
+        <label>Data (DDMMAAAA):
+            <input type="text" name="data" maxlength="8" required>
+        </label>
+        
+        <label>Horário (HHMM):
+            <input type="text" name="horario" maxlength="4" required>
+        </label>
+        
+        <label>Local da sessão:
+            <input type="text" name="local" required>
+        </label>
+        
+        <button type="submit">Agendar</button>
+    </form>
+</body>
+</html>
